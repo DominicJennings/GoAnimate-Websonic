@@ -1,4 +1,5 @@
 const info = require('./info');
+const http = require("http");
 const voices = info.voices, langs = {};
 
 Object.keys(voices).forEach(i => {
